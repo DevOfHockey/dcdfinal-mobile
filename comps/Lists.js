@@ -1,3 +1,4 @@
+//lists.js can be our reference component when making components - Liam
 import styled from "styled-components"
 
 const ItemList = styled.li`
