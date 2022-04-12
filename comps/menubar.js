@@ -6,11 +6,11 @@ function Menubar() {
     return <div className='menubar'>
         
         <div className='icons'>
-            <p> <HiHome size="35px" color="white"/> </p>
-            <p> <HiCheckCircle size="35px" color="white"/> </p>
-            <p> <HiShoppingBag size="35px" color="white"/> </p>
-            <p> <HiHeart size="35px" color="white"/> </p>
-            <p> <GiHanger size="35px" color="white"/> </p>
+            <p><HiHome size="35px" color="white"/></p>
+            <p><HiCheckCircle size="35px" color="white"/></p>
+            <p><HiShoppingBag size="35px" color="white"/></p>
+            <p><HiHeart size="35px" color="white"/></p>
+            <p><GiHanger size="35px" color="white"/></p>
         </div>
 
         <div className='labels'>
