@@ -25,14 +25,29 @@
     margin: 10px;
 }
 
-.icons p:nth-child(4) {
+.icons p:first-child {
     position:relative;
-    left: 10px;
+    left: -5px;
+}
+
+.icons p:nth-child(2) {
+    position:relative;
+    left: -6px;
 }
 
 .icons p:nth-child(3) {
     position:relative;
     left: 3px;
+}
+
+.icons p:nth-child(4) {
+    position:relative;
+    left: 15px;
+}
+
+.icons p:nth-child(5) {
+    position:relative;
+    left: 10px;
 }
 
 p {
