@@ -16,18 +16,23 @@
 .labels {
     position: relative;
     text-align: center;
-    bottom: -10px;
+    bottom: -15px;
 }
 
 .icons p {
     position:relative;
-    bottom: -10px;
+    bottom: -15px;
     margin: 10px;
 }
 
 .icons p:nth-child(4) {
     position:relative;
     left: 10px;
+}
+
+.icons p:nth-child(3) {
+    position:relative;
+    left: 3px;
 }
 
 p {
