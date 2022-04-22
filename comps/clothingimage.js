@@ -1,4 +1,4 @@
-function ClothingImage ( ) {
+function ClothingImage (props) {
     return <div 
     className='clothing-image'
     style={{
@@ -6,6 +6,7 @@ function ClothingImage ( ) {
         backgroundSize: 'cover',
       }}
       >
+    <div className='clothing-header'>{props.name}</div>
     </div>
 }
 
