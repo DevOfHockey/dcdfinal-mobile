@@ -1,6 +1,19 @@
 
 import Menubar from "../comps/menubar";
-export default Menubar
+import styles from "../styles/Home.module.css";
+
+
+
+
+export default function Home(){
+
+    return <div className={styles.main}>
+     
+    </div>
+
+    
+
+} 
 
 //We can begin however we wish here 
 //Feel free to keep or delete the code below, we can refer to the code from week13-14 for organizing our components!

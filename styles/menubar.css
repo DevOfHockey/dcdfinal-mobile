@@ -1,10 +1,12 @@
 .menubar {
-    margin: 0 auto;
     text-align: center;
     width: 350px;
     height: 90px;
     background: #45602B;
     border-radius: 50px;
+    position: absolute; 
+    bottom: 5%;
+    left: 5%;
 }
 
 .icons {

@@ -1,9 +1,10 @@
 import React from "react";
+import Head from 'next/head'
 import {HiHome, HiCheckCircle, HiShoppingBag, HiHeart} from 'react-icons/hi';
 import {GiHanger} from 'react-icons/gi';
 import {useRouter} from 'next/router';
 
-export default function Menubar() {
+function Menubar() {
     const r = useRouter();
 
 
@@ -36,3 +37,5 @@ export default function Menubar() {
         </div>
     </div>
 }
+
+export default Menubar
