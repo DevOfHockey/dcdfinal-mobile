@@ -1,5 +1,7 @@
 
 import Menubar from "../comps/menubar";
+import HeaderImage from "../comps/headerimage";
+import GreenBar from "../comps/greenbar";
 import styles from "../styles/Home.module.css";
 
 
@@ -8,6 +10,12 @@ import styles from "../styles/Home.module.css";
 export default function Home(){
 
     return <div className={styles.main}>
+    <div className="pagetitle">
+    <h1 className="header">Home</h1>
+    <HeaderImage />
+    <GreenBar name="About Revived" />
+    <GreenBar name="Fast Fashion Topics" />
+    </div>
      
     </div>
 

@@ -21,13 +21,99 @@ a {
 }
 
 h1.header {
+  font-family: 'Open Sans';
   color: #45602B;
+  font-size: 33px;
   text-align: center;
 }
 
 p.subheading {
+  font-family: 'Open Sans';
   color: #45602B;
   font-size: 16px;
   font-weight: 300;
   text-align: center;
+}
+
+div.subhead {
+  font-family: 'Open Sans';
+  color: #45602B;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px;
+}
+
+.green-bar {
+  font-family: 'Open Sans';
+  font-style: normal;
+  width: 300px;
+  height: 90px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  border-radius: 60px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  background-color:#45602B;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }   
+
+.clothing-image {
+  width: 160px;
+  height: 175px;
+  font-weight: 700;
+  justify-content:center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgba(142, 142, 142, 0.5);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 15px;
+}
+
+div.rows{
+  display: flex;
+  flex-wrap: wrap;
+}
+div.row{
+  flex-basis: 50%;
+  margin-bottom: 10px;
+}
+
+.header-image {
+  width: 338px;
+  height: 240px;
+  font-weight: 700;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 24px;
+  border: 2px solid rgba(142, 142, 142, 0.5);
+  }
+
+.body-text{
+  font-family: 'Open Sans';
+  font-style: normal;
+  width: 321px;
+  height: 82px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 137.19%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  left: 43px;
+  top: 476px;
+  width: 321px;
+  height: 82px;
 }
