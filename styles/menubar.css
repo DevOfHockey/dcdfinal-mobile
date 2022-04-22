@@ -1,9 +1,8 @@
 .menubar {
-    position: absolute;
-    width: 380px;
+    margin: 0 auto;
+    text-align: center;
+    width: 350px;
     height: 90px;
-    left: 20px;
-    bottom: 30px;
     background: #45602B;
     border-radius: 50px;
 }

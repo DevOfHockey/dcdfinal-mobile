@@ -1,15 +1,29 @@
 import React from "react";
 import {HiHome, HiCheckCircle, HiShoppingBag, HiHeart} from 'react-icons/hi';
 import {GiHanger} from 'react-icons/gi';
+import {useRouter} from 'next/router';
 
-function Menubar() {
+export default function Menubar() {
+    const r = useRouter();
+
+
     return <div className='menubar'>
         
         <div className='icons'>
-            <p><HiHome size="35px" color="white"/></p>
+            <p onClick={
+                ()=>r.push("/")
+            }><HiHome size="35px" color="white"/></p>
+
             <p><HiCheckCircle size="35px" color="white"/></p>
-            <p><HiShoppingBag size="35px" color="white"/></p>
-            <p><HiHeart size="35px" color="white"/></p>
+
+            <p onClick={
+                ()=>r.push("/shopping")
+            }><HiShoppingBag size="35px" color="white"/></p>
+
+            <p onClick={
+                ()=>r.push("/saved")
+            }><HiHeart size="35px" color="white"/></p>
+
             <p><GiHanger size="35px" color="white"/></p>
         </div>
 
@@ -22,5 +36,3 @@ function Menubar() {
         </div>
     </div>
 }
-
-export default Menubar
