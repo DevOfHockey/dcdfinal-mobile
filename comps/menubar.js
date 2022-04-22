@@ -1,16 +1,31 @@
 import React from "react";
+import Head from 'next/head'
 import {HiHome, HiCheckCircle, HiShoppingBag, HiHeart} from 'react-icons/hi';
 import {GiHanger} from 'react-icons/gi';
+import {useRouter} from 'next/router';
 
 function Menubar() {
+    const r = useRouter();
+
+
     return <div className='menubar'>
         
         <div className='icons'>
-            <p> <HiHome size="35px" color="white"/> </p>
-            <p> <HiCheckCircle size="35px" color="white"/> </p>
-            <p> <HiShoppingBag size="35px" color="white"/> </p>
-            <p> <HiHeart size="35px" color="white"/> </p>
-            <p> <GiHanger size="35px" color="white"/> </p>
+            <p onClick={
+                ()=>r.push("/")
+            }><HiHome size="35px" color="white"/></p>
+
+            <p><HiCheckCircle size="35px" color="white"/></p>
+
+            <p onClick={
+                ()=>r.push("/shopping")
+            }><HiShoppingBag size="35px" color="white"/></p>
+
+            <p onClick={
+                ()=>r.push("/saved")
+            }><HiHeart size="35px" color="white"/></p>
+
+            <p><GiHanger size="35px" color="white"/></p>
         </div>
 
         <div className='labels'>
