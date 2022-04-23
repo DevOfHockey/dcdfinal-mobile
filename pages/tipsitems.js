@@ -11,7 +11,7 @@ export default function Tipsitems() {
     <h1 className="header">Clothing Tips</h1>
     <div className="subhead">Fashion Hacks</div>
     <div className="rows">
-    <div className="row"><ClothingImage  /></div>
+    <div className="row"><ClothingImage name="About Revived" /></div>
     <div className="row"><ClothingImage  /></div>
     <div className="row"><ClothingImage  /></div>
     <div className="row"><ClothingImage  /></div>

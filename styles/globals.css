@@ -67,8 +67,8 @@ div.subhead {
   }   
 
 .clothing-image {
-  width: 160px;
-  height: 175px;
+  width: 150px;
+  height: 160px;
   font-weight: 700;
   justify-content:center;
   align-items: center;
@@ -85,7 +85,7 @@ div.rows{
 }
 div.row{
   flex-basis: 50%;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .header-image {
@@ -102,6 +102,23 @@ div.row{
   }
 
 .body-text{
+  font-family: 'Open Sans';
+  font-style: normal;
+  width: 321px;
+  height: 82px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 137.19%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  left: 43px;
+  top: 476px;
+  width: 321px;
+  height: 82px;
+}
+
+.clothing-text{
   font-family: 'Open Sans';
   font-style: normal;
   width: 321px;

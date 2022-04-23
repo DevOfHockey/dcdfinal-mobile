@@ -11,7 +11,7 @@ export default function Tips() {
      
     <div className="pagetitle">
     <h1 className="header">Clothing Tips</h1>
-    <p className="subheading">Help reduce waste and save your clothing pieces through our tips.</p>
+    <p className="subheading">Help reduce waste and save your <br />clothing pieces through our tips.</p>
     <div className="subhead">Select a Category</div>
    
     <GreenBar name="Fashion Hacks" />
