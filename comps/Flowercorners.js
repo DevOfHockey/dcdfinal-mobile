@@ -30,7 +30,7 @@ position:absolute;
 `;
 
 // HTML to become component
-export default function Stylesheet() {
+export default function Flowercorners() {
   return ( 
     <div className='flowercorners'> 
       <Flower1>
