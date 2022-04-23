@@ -1,0 +1,61 @@
+.menubar {
+    text-align: center;
+    width: 350px;
+    height: 90px;
+    background: #45602B;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.icons {
+    text-align: center;
+    bottom: -15px;
+}
+
+.labels {
+    position: relative;
+    text-align: center;
+    bottom: -15px;
+}
+
+.icons p {
+    position:relative;
+    bottom: -15px;
+    margin: 10px;
+}
+
+.icons p:first-child {
+    position:relative;
+    left: -5px;
+}
+
+.icons p:nth-child(2) {
+    position:relative;
+    left: -6px;
+}
+
+.icons p:nth-child(3) {
+    position:relative;
+    left: 3px;
+}
+
+.icons p:nth-child(4) {
+    position:relative;
+    left: 15px;
+}
+
+.icons p:nth-child(5) {
+    position:relative;
+    left: 10px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    display: inline;
+    margin: 5px;
+}

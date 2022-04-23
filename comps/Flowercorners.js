@@ -42,13 +42,13 @@ export default function Stylesheet() {
       </Flower2>
       {/* come back here wehn back, delete to adknowledge */}
 
-      <div classname="flower-div3">
+      <Flower3>
         <img src="/flowerBL.svg" alt="Flower icon"/> 
-      </div>
+      </Flower3>
 
-      <div classname="flower-div4">
+      <Flower4>
         <img src="/flowerBR.svg" alt="Flower icon"/> 
-      </div>
+      </Flower4>
     </div>
   )
 }

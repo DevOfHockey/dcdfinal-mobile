@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import Stylesheet from '../comps/Stylesheet'
+import Stylesheet from '../comps/flowercorners'
 // import 'globals.css'
 
 

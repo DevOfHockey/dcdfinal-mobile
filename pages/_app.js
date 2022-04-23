@@ -1,14 +1,15 @@
-import styled from "styled-components";
-// import {useRouter} from "next/router";
+import '../styles/globals.css'
+import Menubar from '../comps/menubar'
+import '../styles/menubar.css'
+import styles from "../styles/Home.module.css"
 
-const FunctionName = styled.div`
-  display: block;`
-;
+
 
 function MyApp({ Component, pageProps }) {
   return (
   <>
-  <Component {...pageProps} /> 
+    <Component {...pageProps} />
+     <Menubar></Menubar>
   </>
   )
 }

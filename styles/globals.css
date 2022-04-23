@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #EBEAEA;
 }
 
 a {
@@ -15,30 +16,121 @@ a {
   box-sizing: border-box;
 }
 
-/* START HERE FOR NON-COMPONENT CSS */
-/* have to do all in global.css */
-.flowercorners {
-  position:relative;
-  padding:0;
+.pagetitle {
+  text-align: center;
 }
-.flower-div1, .flower-div2, .flower-div3, .flower-div4 {
-  position:absolute;
-  margin:0;
-  padding: 0;
+
+h1.header {
+  font-family: 'Open Sans';
+  color: #45602B;
+  font-size: 33px;
+  text-align: center;
 }
-.flower-div1 {
-  top:0;
-  left:0;    
+
+p.subheading {
+  font-family: 'Open Sans';
+  color: #45602B;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
 }
-.flower-div2 {
-  top:0;
-  right:0;
+
+div.subhead {
+  font-family: 'Open Sans';
+  color: #45602B;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px;
 }
-.flower-div3 {
-  bottom:0;
-  left:0;
+
+.green-bar {
+  font-family: 'Open Sans';
+  font-style: normal;
+  width: 300px;
+  height: 90px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  border-radius: 60px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  background-color:#45602B;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }   
+
+.clothing-image {
+  width: 150px;
+  height: 160px;
+  font-weight: 700;
+  justify-content:center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgba(142, 142, 142, 0.5);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 15px;
 }
-.flower-div4 {
-  bottom:0;
-  right:0;
+
+div.rows{
+  display: flex;
+  flex-wrap: wrap;
+}
+div.row{
+  flex-basis: 50%;
+  margin-bottom: 15px;
+}
+
+.header-image {
+  width: 338px;
+  height: 240px;
+  font-weight: 700;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 24px;
+  border: 2px solid rgba(142, 142, 142, 0.5);
+  }
+
+.body-text{
+  font-family: 'Open Sans';
+  font-style: normal;
+  width: 321px;
+  height: 82px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 137.19%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  left: 43px;
+  top: 476px;
+  width: 321px;
+  height: 82px;
+}
+
+.clothing-text{
+  font-family: 'Open Sans';
+  font-style: normal;
+  width: 321px;
+  height: 82px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 137.19%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  left: 43px;
+  top: 476px;
+  width: 321px;
+  height: 82px;
 }
