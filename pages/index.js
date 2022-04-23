@@ -3,18 +3,21 @@ import Menubar from "../comps/menubar";
 import HeaderImage from "../comps/headerimage";
 import GreenBar from "../comps/greenbar";
 import styles from "../styles/Home.module.css";
-
+import {useRouter} from 'next/router';
 
 
 
 export default function Home(){
+    const r = useRouter();
 
     return <div className={styles.main}>
-    <div className="pagetitle">
-    <h1 className="header">Home</h1>
-    <HeaderImage />
-    <GreenBar name="About Revived" />
-    <GreenBar name="Fast Fashion Topics" />
+        <div className="pagetitle">
+        <h1 className="header">Home</h1>
+         <HeaderImage />
+        <div onClick={
+            ()=>r.push("/about")
+        }><GreenBar name="About Revived" /></div>
+        <div><GreenBar name="Fast Fashion Topics" /></div>
     </div>
      
     </div>
