@@ -1,12 +1,10 @@
+import Flower from "../comps/Flower";
+
+export default Flower
+
 //We can begin however we wish here 
 //Feel free to keep or delete the code below, we can refer to the code from week13-14 for organizing our components!
 //Delete this comment after viewing - Liam
-
-
-
-
-
-
 
 
 // import Head from 'next/head'

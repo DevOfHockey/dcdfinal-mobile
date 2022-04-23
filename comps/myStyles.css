@@ -1,0 +1,26 @@
+
+.flowercorners {
+     position:relative;
+     padding:0;
+   }
+.flower-div1, .flower-div2, .flower-div3, .flower-div4 {
+     position:absolute;
+     margin:0;
+     padding: 0;
+   }
+.flower-div1 {
+     top:0;
+     left:0;    
+  }
+   .flower-div2 {
+     top:0;
+     right:0;
+   }
+   .flower-div3 {
+     bottom:0;
+     left:0;
+   }
+   .flower-div4 {
+     bottom:0;
+     right:0;
+  }
