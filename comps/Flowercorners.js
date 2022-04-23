@@ -1,4 +1,4 @@
-// import '../comps/myStyles.css'
+import '../styles/globals.css'
 import React from 'react'
 import styled from 'styled-components'
 //1- Just import styled-components and just style each div seperately in 
@@ -33,22 +33,22 @@ position:absolute;
 export default function Flowercorners() {
   return ( 
     <div className='flowercorners'> 
-      <Flower1>
+      {/* or <Flower1> etc replacing flower-div1 */}
+      <div classname="flower-div1">
         <img src="/flowerTL.svg" alt="Flower icon"/> 
-      </Flower1>
+      </div>
 
-      <Flower2>
+      <div classname="flower-div2">
         <img src="/flowerTR.svg" alt="Flower icon"/> 
-      </Flower2>
-      {/* come back here wehn back, delete to adknowledge */}
+      </div>
 
-      <Flower3>
+      <div classname="flower-div3">
         <img src="/flowerBL.svg" alt="Flower icon"/> 
-      </Flower3>
+      </div>
 
-      <Flower4>
+      <div classname="flower-div4">
         <img src="/flowerBR.svg" alt="Flower icon"/> 
-      </Flower4>
+      </div>
     </div>
   )
 }
