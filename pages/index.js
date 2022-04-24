@@ -13,12 +13,16 @@ export default function Home(){
     return <div className={styles.main}>
         <div className="pagetitle">
         <h1 className="header">Home</h1>
+        </div>
+        <br />
          <HeaderImage />
+         <br />
         <div onClick={
             ()=>r.push("/about")
         }><GreenBar name="About Revived" /></div>
-        <div><GreenBar name="Fast Fashion Topics" /></div>
-    </div>
+        <div onClick={
+            ()=>r.push("/about")
+        }><GreenBar name="Fast FashioTopics" /></div>
      
     </div>
 

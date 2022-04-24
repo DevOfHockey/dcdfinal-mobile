@@ -1,12 +1,8 @@
 function HeaderImage () {
     return (
     <div 
-    className='header-image'
-        style={{
-            backgroundImage: 'url(../clothing.webp)',
-            backgroundSize: 'cover',
-          }}
-          >
+    className='header-image'>
+        <img src={'../clothing.webp'} />
     </div>
     );
 }
