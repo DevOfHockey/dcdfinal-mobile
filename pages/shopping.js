@@ -1,6 +1,9 @@
 import styles from "../styles/Home.module.css";
-import { shopImgs } from "../data/shopitems";
+import { shopImgs, shopLabels } from "../data/shopitems";
 import GridImgs from "../comps/gridimgs";
+import GridTxt from "../comps/gridtext";
+
+
 
 export default function Shopping() {
     return <div className={styles.main}>
@@ -10,10 +13,11 @@ export default function Shopping() {
         <p class="subheading">Browse second-hand clothing from our Community</p>
     </div>
 
+    <div>
+        <GridTxt arr={shopLabels} />    
+    </div>
+
     <div class="shopImgs">
-        {
-            //shopImgs.map((o,i)=><img src={o} height={180} />)
-        }
         <GridImgs arr={shopImgs} />
     </div>
 
