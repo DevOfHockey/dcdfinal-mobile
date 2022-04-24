@@ -1,12 +1,11 @@
-function ClothingImage (props) {
+import image from "../public/shirt.jpeg";
+
+
+function ClothingImage (){
     return <div 
-    className='clothing-image'
-    style={{
-        backgroundImage: 'url(../shirt.jpeg)',
-        backgroundSize: 'cover',
-      }}
-      >
-    <div className='clothing-header'>{props.name}</div>
+    
+    className='clothing-image'>
+    <img src={'../clothing.webp'} />
     </div>
 }
 

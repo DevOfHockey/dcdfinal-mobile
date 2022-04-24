@@ -16,7 +16,7 @@ a {
   box-sizing: border-box;
 }
 
-.pagetitle {
+.pagetitle {  /* global.css */
   text-align: center;
 }
 
@@ -41,7 +41,18 @@ div.subhead {
   font-size: 24px;
   font-weight: 400;
   text-align: center;
-  margin: 10px;
+  margin: 15px;
+}
+
+p.pagedescription {
+  display: flex;
+  font-family: 'Open Sans';
+  color: black;
+  font-size: 18px;
+  font-weight: 100;
+  margin: 30px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .green-bar {
@@ -60,13 +71,13 @@ div.subhead {
   color: white;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   margin-top: 15px;
   background-color:#45602B;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }   
 
-.clothing-image {
+.clothing-image > img {
   width: 150px;
   height: 160px;
   font-weight: 700;
@@ -82,14 +93,18 @@ div.subhead {
 div.rows{
   display: flex;
   flex-wrap: wrap;
+  font-family: 'Open Sans';
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
 }
 div.row{
   flex-basis: 50%;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
-.header-image {
-  width: 338px;
+.header-image > img {
+  width: 318px;
   height: 240px;
   font-weight: 700;
   display: flex;
@@ -101,21 +116,25 @@ div.row{
   border: 2px solid rgba(142, 142, 142, 0.5);
   }
 
+.like {
+  position: absolute;
+  right: 15%;
+  top: 18%;
+}
+
 .body-text{
   font-family: 'Open Sans';
   font-style: normal;
   width: 321px;
-  height: 82px;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
-  line-height: 137.19%;
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
   left: 43px;
   top: 476px;
   width: 321px;
-  height: 82px;
 }
 
 .clothing-text{
@@ -135,29 +154,27 @@ div.row{
   height: 82px;
 }
 
-/* flowercorners */
-.flowercorners {
-  position:relative;
-  padding:0;
-}
-.flower-div1, .flower-div2, .flower-div3, .flower-div4 {
-  position:absolute;
-  margin:0;
-  padding: 0;
-}
-.flower-div1 {
-  top:0;
-  left:0;    
-}
-.flower-div2 {
-  top:0;
-  right:0;
-}
-.flower-div3 {
-  bottom:0;
-  left:0;
-}
-.flower-div4 {
-  bottom:0;
-  right:0;
-}
+/* place css here? */
+
+/* Flower1
+top:0;
+left:0;  
+position:absolute;
+`;
+
+Flower3 
+top:0;
+right:0;
+position:absolute;
+`;
+
+Flower3 
+bottom:0;
+left:0;
+position:absolute;
+`;
+
+Flower4 
+bottom:0;
+right:0;
+position:absolute;  */
