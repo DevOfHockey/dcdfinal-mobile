@@ -13,13 +13,14 @@ export default function Shopping() {
         <p class="subheading">Browse second-hand clothing from our Community</p>
     </div>
 
-    <div>
-        <GridTxt arr={shopLabels} />    
-    </div>
-
     <div class="shopImgs">
         <GridImgs arr={shopImgs} />
     </div>
+
+    <div class="shopLabels">
+        <GridTxt arr={shopLabels} />    
+    </div>
+
 
     </div>
 }
