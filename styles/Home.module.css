@@ -168,6 +168,12 @@
   text-align: center;
 }
 
+.buttoncont {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
 .contactbutton {
   background-color:#45602B;
   border: none;
@@ -178,9 +184,6 @@
   font-size: 16px;
   font-weight: 500;
   border-radius: 25px;
-  position: absolute;
-  left: 110px;
-  top: 630px;
 }
 
 @media (max-width: 600px) {

@@ -16,7 +16,9 @@ function DenimJacket() {
             Message seller if interested to purchase.</p>
         </div>
 
-        <button className={styles.contactbutton}>Contact Seller</button>
+        <div className={styles.buttoncont}>
+            <button className={styles.contactbutton}>Contact Seller</button>
+        </div>
 
     </div>
 }
