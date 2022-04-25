@@ -2,10 +2,18 @@ import React from "react";
 import HeaderImgs from '../comps/headerimage';
 import { DenimImg } from "../data/headimgs";
 import styles from "../styles/Home.module.css";
+import {HiArrowNarrowLeft} from 'react-icons/hi';
+import {useRouter} from 'next/router';
 
 function DenimJacket() {
+    const r = useRouter();
     return <div class="denimjacket">
         <h1 class="header">Shopping</h1>
+
+        <div className="arrow" onClick={
+            ()=>r.push("/shopping")
+        }><HiArrowNarrowLeft size="45px" color="black" /></div>
+
         <HeaderImgs arr={DenimImg} />
         
         <div className={styles.deniminfo}>
