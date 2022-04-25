@@ -1,9 +1,11 @@
 
 import Menubar from "../comps/menubar";
-import HeaderImage from "../comps/headerimage";
+import HeaderImgs from "../comps/headerimage";
 import GreenBar from "../comps/greenbar";
 import styles from "../styles/Home.module.css";
+import {headerImgs} from "../data/headimgs";
 import {useRouter} from 'next/router';
+import {HiArrowNarrowLeft} from 'react-icons/hi';
 
 
 
@@ -15,14 +17,14 @@ export default function Home(){
         <h1 className="header">Home</h1>
         </div>
         <br />
-         <HeaderImage />
+        <HeaderImgs arr={headerImgs} />
          <br />
         <div onClick={
             ()=>r.push("/about")
         }><GreenBar name="About Revived" /></div>
         <div onClick={
             ()=>r.push("/about")
-        }><GreenBar name="Fast FashioTopics" /></div>
+        }><GreenBar name="Fast Fashion Topics" /></div>
      
     </div>
 
