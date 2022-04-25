@@ -11,7 +11,6 @@ justify-content: center;
 
 const TxtCont = styled.div`
 text-align: center;
-font-family: 'Open Sans';
 font-weight: 600;
 position: relative;
 margin-top: -370px;
