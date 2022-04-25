@@ -1,19 +1,38 @@
 import styles from "../styles/Home.module.css";
-import ClothingImage from '../comps/clothingimage';
-import HeaderImage from '../comps/headerimage';
-import GreenBar from '../comps/greenbar';
+import {headertipsImgs} from "../data/headimgs";
+import HeaderImgs from '../comps/headerimage';
 import BodyText from '../comps/bodytext';
-import {HiHeart} from 'react-icons/hi';
+import {HiHeart, HiOutlineHeart, HiArrowNarrowLeft} from 'react-icons/hi';
+import {useRouter} from "next/router";
+import {useState} from "react";
+
 
 export default function Tipsdescription() {
+    const [icon, setIcon] = useState("unliked");
+    const changeIcon = (state) => {
+        if (state === "unliked") {
+            return "liked";
+        }
+        return "unliked";
+    };
+    const r = useRouter();
     return <div className={styles.main}>
+
+    <div className="arrow" onClick={
+            ()=>r.push("/tipsitems")
+        }><HiArrowNarrowLeft size="45px" color="black" /></div>
+
     <div className="pagetitle">
     <h1 className="header">Clothing Tips</h1>
     <div className="subhead">Fashion Hacks</div>
-    <HeaderImage />
-    <div className="like" onClick={
-            () => (color="#45602B")
-        }><HiHeart size="50px" color="#EBEAEA" /></div>
+
+    <HeaderImgs arr={headertipsImgs} />
+
+            <div className="like">
+                {" "}
+                {icon === "unliked" ? <HiOutlineHeart size="50px" backgroundColor="black" onClick={() => setIcon((old) => changeIcon(old))} /> : <HiHeart size="50px" color="#45602B" onClick={() => setIcon((old) => changeIcon(old))} />}
+            </div>{" "}
+        
     <div className="subhead">Guide: Fix shoe scuff marks</div>
     
     </div>
@@ -23,4 +42,4 @@ export default function Tipsdescription() {
     
     </div>
     
-}   
+}

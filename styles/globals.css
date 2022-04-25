@@ -16,7 +16,7 @@ a {
   box-sizing: border-box;
 }
 
-.pagetitle {  /* global.css */
+.pagetitle {
   text-align: center;
 }
 
@@ -77,43 +77,10 @@ p.pagedescription {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }   
 
-.clothing-image > img {
-  width: 150px;
-  height: 160px;
-  font-weight: 700;
-  justify-content:center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid rgba(142, 142, 142, 0.5);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  border-radius: 15px;
-}
-
-div.rows{
-  display: flex;
-  flex-wrap: wrap;
-  font-family: 'Open Sans';
-  text-align: center;
-  font-size: 13px;
-  font-weight: 400;
-}
-div.row{
-  flex-basis: 50%;
-  margin-bottom: 10px;
-}
-
-.header-image > img {
-  width: 318px;
-  height: 240px;
-  font-weight: 700;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 24px;
-  border: 2px solid rgba(142, 142, 142, 0.5);
+  .arrow {
+    position: absolute;
+    left: 6%;
+    top: 2.7%;
   }
 
 .like {
@@ -137,44 +104,32 @@ div.row{
   width: 321px;
 }
 
-.clothing-text{
-  font-family: 'Open Sans';
-  font-style: normal;
-  width: 321px;
-  height: 82px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 137.19%;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  left: 43px;
-  top: 476px;
-  width: 321px;
-  height: 82px;
+/* START HERE */
+.flowercorners {
+  position:relative;
+  padding:0;
 }
+.flower-div1, .flower-div2, .flower-div3, .flower-div4 {
+  position:fixed;
+  margin:0;
+  padding: 0;
 
-/* place css here? */
-
-/* Flower1
-top:0;
-left:0;  
-position:absolute;
-`;
-
-Flower3 
-top:0;
-right:0;
-position:absolute;
-`;
-
-Flower3 
-bottom:0;
-left:0;
-position:absolute;
-`;
-
-Flower4 
-bottom:0;
-right:0;
-position:absolute;  */
+  width: 160px;
+  height: 160px;
+}
+.flower-div1 {
+  top:0;
+  left:0;    
+}
+.flower-div2 {
+  top:0;
+  right:0;
+}
+.flower-div3 {
+  bottom:0;
+  left:0;
+}
+.flower-div4 {
+  bottom:0;
+  right:0;
+}
