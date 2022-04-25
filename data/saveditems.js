@@ -1,5 +1,5 @@
 export const savedImgs = [
-    "/heels2.jpeg",
+    "/heels.jpg",
     "/laundry.jpeg",
     "/denim.jpeg",
     "/tiedye.jpeg"
