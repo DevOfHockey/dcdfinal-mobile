@@ -14,7 +14,14 @@ export default function Shopping() {
         <h1 class="header">Shopping</h1>
         <p class="subheading">Browse second-hand clothing from our Community</p>
     </div>
-    <div class="shopImgs">
+    <div class="shopImgs" onClick={
+        ()=>r.replace({
+            pathname:"/denimjacket",
+            query:{
+                page:1
+            }
+        })
+    }>
         <GridImgs arr={shopImgs} />
     </div>
 
@@ -22,12 +29,5 @@ export default function Shopping() {
         <GridTxt arr={shopLabels} />    
     </div>
 
-    <div>
-        <GridTxt arr={shopLabels} />    
-    </div>
-
-    <div class="shopImgs">
-        <GridImgs arr={shopImgs} />
-    </div>
     </div>
 }
