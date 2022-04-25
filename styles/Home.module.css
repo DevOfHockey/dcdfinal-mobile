@@ -175,11 +175,12 @@
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: flex;
   font-size: 16px;
   font-weight: 500;
   border-radius: 25px;
-
+  position: absolute;
+  left: 110px;
+  top: 630px;
 }
 
 @media (max-width: 600px) {
