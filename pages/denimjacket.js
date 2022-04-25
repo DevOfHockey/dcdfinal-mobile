@@ -1,12 +1,12 @@
 import React from "react";
-import DenimImage from "../comps/shopdenimimg";
+import HeaderImgs from '../comps/headerimage';
+import { DenimImg } from "../data/headimgs";
 import styles from "../styles/Home.module.css";
 
 function DenimJacket() {
     return <div class="denimjacket">
         <h1 class="header">Shopping</h1>
-        
-        <DenimImage />
+        <HeaderImgs arr={DenimImg} />
         
         <div className={styles.deniminfo}>
         <p className={styles.denimprice}>$25 CAD</p>
