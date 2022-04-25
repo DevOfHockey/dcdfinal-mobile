@@ -16,23 +16,11 @@ export default function Shopping() {
         <h1 class="header">Shopping</h1>
         <p class="subheading">Browse second-hand clothing from our Community</p>
     </div>
-
-<<<<<<< HEAD
     <div>
         <GridTxt arr={shopLabels} />    
     </div>
 
     <div class="shopImgs">
-=======
-    <div class="shopImgs" onClick={
-        ()=>r.replace({
-            pathname:"/denimjacket",
-            query:{
-                page:1
-            }
-        })
-    }>
->>>>>>> 21f8d5f (shopping update)
         <GridImgs arr={shopImgs} />
     </div>
 
