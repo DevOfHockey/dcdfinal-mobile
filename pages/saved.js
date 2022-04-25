@@ -1,5 +1,6 @@
-import { savedImgs } from "../data/saveditems";
+import { savedImgs, savedTxt } from "../data/saveditems";
 import LinearImgs from "../comps/linearimgs";
+import SavedTxt from "../comps/savedtext";
 
 export default function Saved() {
     return <div class="pagetitle">
@@ -8,6 +9,7 @@ export default function Saved() {
 
     <div class="savedImgs">
         <LinearImgs arr={savedImgs} />
+        <SavedTxt arr={savedTxt} />
     </div>
 
     </div>
