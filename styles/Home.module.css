@@ -109,6 +109,79 @@
   margin-left: 0.5rem;
 }
 
+/* Denim Jacket Page */
+.deniminfo {
+  color: #45602B;
+  display: inline-block;
+  text-align: center;
+}
+
+.vintagesherpa {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  color: #45602B;
+  display: inline-block;
+  text-align: center;
+}
+
+.denimprice {
+  font-family: 'Open Sans';
+  font-style: normal;
+  color: #45602B;
+  display: inline-block;
+  text-align: center;
+}
+
+.denimprice {
+  font-family: 'Open Sans';
+  font-style: normal;
+  color: #45602B;
+  display: inline-block;
+  font-size: 22px;
+  text-align: center;
+}
+
+.denimsize {
+  font-family: 'Open Sans';
+  font-style: normal;
+  color: #45602B;
+  display: inline-block;
+  text-align: center;
+}
+
+.denimprice {
+  font-family: 'Open Sans';
+  font-style: normal;
+  color: #45602B;
+  display: inline-block;
+  text-align: center;
+}
+
+.denimdescription {
+  font-family: 'Open Sans';
+  font-style: normal;
+  color: #45602B;
+  display: inline-block;
+  font-weight: 200;
+  text-align: center;
+}
+
+.contactbutton {
+  background-color:#45602B;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 25px;
+
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
