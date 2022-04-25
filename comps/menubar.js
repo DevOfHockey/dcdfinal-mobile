@@ -25,7 +25,9 @@ function Menubar() {
                 ()=>r.push("/saved")
             }><HiHeart size="35px" color="white"/></p>
 
-            <p><GiHanger size="35px" color="white"/></p>
+            <p onClick={
+                ()=>r.push("/tips")
+            }><GiHanger size="35px" color="white"/></p>
         </div>
 
         <div className='labels'>

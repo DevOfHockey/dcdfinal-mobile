@@ -1,49 +1,31 @@
-//MUST HAVE - CREATE A TEMPLATE TAG
-var template_headerimage = document.createElement("template"); //<template> </template> RULE
+import styled from 'styled-components';
 
-//To-do - CREATE THE UI HERE!
-template_headerimage.innerHTML = `
-<style>
-.image{
-width: 338px;
-height: 240px;
-font-weight: 700;
+const DispCont = styled.div`
 display: flex;
 justify-content:center;
 align-items: center;
-background: url();
-border-radius: 24px;
-background-color:pink;
-border: 1px solid rgba(142, 142, 142, 0.5);
-}
-
-</style>
-
-<div class="image">
-</div>
+margin-left: auto;
+margin-right: auto;
 `;
 
-//MUST HAVE - CREATE A CLASS WITH HTMLELEMENT POWERS (interfaces/functionalities)
-class Headerimage extends HTMLElement {
+const ImgCont = styled.div`
+`;
 
-    //MUST HAVE - CREATE A CONSTRUCTOR TO DO INITAL ASSOCIATIONS
-    constructor(){
-        super(); //pass on the HTMLElement super powers!
-        this.attachShadow({mode:"open"}) //Attach it to the shadowRoot
+const DispImg = styled.img`
+  width: 318px;
+  height: 240px;
+  border-radius: 24px;
+  border: 2px solid rgba(142, 142, 142, 0.5);
+`;
 
-        //To-do - CREATE THE STATES FOR THE UI HERE!
-    }
-
-    //MUST HAVE - FUNCTION THAT RUNS AFTER IT'S CONNECTED
-    connectedCallback(){
-        this.shadowRoot.appendChild(template_headerimage.content.cloneNode(true)); //use the template to make a clone
-        if(this.getAttribute("text")){
-            this.shadowRoot.querySelector(".image").innerText = this.getAttribute("text");
-          }
-    }
-
-    //To-do - CREATE THE FUNCTIONALITIES HERE!
+export default function HeaderImgs({
+    arr=[]
+}){
+    return <DispCont>
+        {
+            arr.map((o,i)=><ImgCont>
+                <DispImg src={o} height={180} />
+            </ImgCont>)
+        }
+    </DispCont>
 }
-
-//MUST HAVE - define the tag for the custom elements
-customElements.define("header-image", Headerimage)

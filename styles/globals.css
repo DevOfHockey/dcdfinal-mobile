@@ -21,14 +21,85 @@ a {
 }
 
 h1.header {
+  font-family: 'Open Sans';
   color: #45602B;
+  font-size: 33px;
   text-align: center;
 }
 
 p.subheading {
+  font-family: 'Open Sans';
   color: #45602B;
   font-size: 16px;
   font-weight: 300;
   text-align: center;
 }
 
+div.subhead {
+  font-family: 'Open Sans';
+  color: #45602B;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin: 15px;
+}
+
+p.pagedescription {
+  display: flex;
+  font-family: 'Open Sans';
+  color: black;
+  font-size: 18px;
+  font-weight: 100;
+  margin: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.green-bar {
+  font-family: 'Open Sans';
+  font-style: normal;
+  width: 300px;
+  height: 90px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  border-radius: 60px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 18px;
+  margin-top: 15px;
+  background-color:#45602B;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }   
+
+  .arrow {
+    position: absolute;
+    left: 6%;
+    top: 2.7%;
+  }
+
+.like {
+  position: absolute;
+  right: 15%;
+  top: 18%;
+}
+
+.body-text{
+  font-family: 'Open Sans';
+  font-style: normal;
+  width: 321px;
+  font-weight: 300;
+  font-size: 18px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  left: 43px;
+  top: 476px;
+  width: 321px;
+}

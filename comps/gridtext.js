@@ -4,6 +4,7 @@ const DispCont = styled.div`
 display: grid;
 grid-row-gap: 140px;
 grid-column-gap: 40px;
+grid-gap: 50px;
 grid-template-rows: 50px 50px 50px;
 grid-template-columns: 150px 150px;
 justify-content: center;
