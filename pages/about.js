@@ -1,4 +1,5 @@
 import React from "react";
+import Menubar from "../comps/menubar";
 import styles from "../styles/Home.module.css";
 import HeaderImgs from '../comps/headerimage';
 import {aboutImgs} from "../data/headimgs";
@@ -21,7 +22,10 @@ function About() {
             fashion. This app also provides resources on how people can reuse their 
             clothing or re-sell their clothing in the community page. 
         </p>
+
+        <Menubar />
     </div>
+    
 }
 
 export default About

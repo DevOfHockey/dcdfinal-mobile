@@ -26,6 +26,7 @@ export default function Home(){
             ()=>r.push("/about")
         }><GreenBar name="Fast Fashion Topics" /></div>
      
+    <Menubar />
     </div>
 
     
