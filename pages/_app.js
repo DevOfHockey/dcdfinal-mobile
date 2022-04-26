@@ -1,17 +1,16 @@
+
 import '../styles/globals.css'
-import Menubar from '../comps/menubar'
 import '../styles/menubar.css'
 import styles from "../styles/Home.module.css"
-
+import FlowerTopRight from "../comps/flower"; //use app.js to import this all pages!
 
 
 function MyApp({ Component, pageProps }) {
   return (
   <>
     <Component {...pageProps} />
-     <Menubar></Menubar>
+    <FlowerTopRight/>
   </>
   )
 }
-
 export default MyApp

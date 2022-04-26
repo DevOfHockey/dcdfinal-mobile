@@ -26,7 +26,9 @@ export default function Splashpage() { //See     global.css  >  .pagetitle    h1
 
      <div className={styles.main}>
         <div class="pagetitle">
-            <img src="/logo.svg" alt="Logo"/> 
+            <div class = "revived-logo">
+                <img src="/logo.svg" alt="Logo"/> 
+            </div>
             <h1 class="header">Revived</h1> 
             <p class="subheading">Welcome! Let’s start making <br/>a difference with efforts to <br/>reduce the footprint of our <br/>clothes on our planet!</p>
         </div>
