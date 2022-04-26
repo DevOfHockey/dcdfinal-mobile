@@ -35,7 +35,7 @@ export default function Splashpage() { //See     global.css  >  .pagetitle    h1
      </div>
 
      <div onClick={
-            ()=>r.push("/tipsitems")
+            ()=>r.push("/")
         }><BeginButton name="Let's begin!" /></div>
 
     </div> 

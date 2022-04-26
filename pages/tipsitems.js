@@ -1,3 +1,4 @@
+import Menubar from "../comps/menubar";
 import styles from "../styles/Home.module.css";
 import {tipsImgs, tipsLabels} from "../data/tipsitems";
 import ClothingImgs from "../comps/clothingimage";
@@ -26,5 +27,6 @@ export default function Tips() {
     
     <ClothingTxt arr={tipsLabels} />
 
+    <Menubar />
     </div>
 }

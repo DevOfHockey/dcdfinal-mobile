@@ -8,8 +8,8 @@ function Menubar() {
     const r = useRouter();
 
 
-    return <div className='menubar'>
-        
+    return <div className='menubarcont'>
+        <div className='menubar'>
         <div className='icons'>
             <p onClick={
                 ()=>r.push("/")
@@ -36,6 +36,7 @@ function Menubar() {
              <p> Shopping </p>
              <p> Saved </p>
              <p> Tips </p>
+        </div>
         </div>
     </div>
 }

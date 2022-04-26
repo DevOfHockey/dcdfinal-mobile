@@ -8,7 +8,6 @@ import {useState} from "react";
 
 
 export default function Tipsdescription() {
-
     const [icon, setIcon] = useState("unliked");
     const changeIcon = (state) => {
         if (state === "unliked") {
@@ -41,6 +40,7 @@ export default function Tipsdescription() {
     <BodyText name="2. Paint the nail polish on top of any scuff marks on the shoes" />
     <BodyText name="3. Let the shoes dry" />
     
+    <Menubar />
     </div>
     
 }
