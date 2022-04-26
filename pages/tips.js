@@ -1,3 +1,4 @@
+import Menubar from "../comps/menubar";
 import React from 'react';
 import styles from "../styles/Home.module.css";
 import GreenBar from '../comps/greenbar';
@@ -27,6 +28,7 @@ export default function Tips() {
             ()=>r.push("/tipsitems")
         }><GreenBar name="Before You Purchase..." /></div>
     
+    <Menubar />
     </div>
     
     

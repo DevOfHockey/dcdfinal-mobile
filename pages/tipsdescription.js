@@ -1,3 +1,4 @@
+import Menubar from "../comps/menubar";
 import styles from "../styles/Home.module.css";
 import {headertipsImgs} from "../data/headimgs";
 import HeaderImgs from '../comps/headerimage';
@@ -40,6 +41,7 @@ export default function Tipsdescription() {
     <BodyText name="2. Paint the nail polish on top of any scuff marks on the shoes" />
     <BodyText name="3. Let the shoes dry" />
     
+    <Menubar />
     </div>
     
 }
