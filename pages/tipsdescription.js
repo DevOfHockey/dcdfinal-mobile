@@ -3,7 +3,6 @@ import styles from "../styles/Home.module.css";
 import {headertipsImgs} from "../data/headimgs";
 import HeaderImgs from '../comps/headerimage';
 import BodyText from '../comps/bodytext';
-import Menubar from "../comps/menubar";
 import {HiHeart, HiOutlineHeart, HiArrowNarrowLeft} from 'react-icons/hi';
 import {useRouter} from "next/router";
 import {useState} from "react";
