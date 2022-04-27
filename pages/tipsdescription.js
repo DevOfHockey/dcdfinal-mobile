@@ -1,3 +1,4 @@
+import Menubar from "../comps/menubar";
 import styles from "../styles/Home.module.css";
 import {headertipsImgs} from "../data/headimgs";
 import HeaderImgs from '../comps/headerimage';
