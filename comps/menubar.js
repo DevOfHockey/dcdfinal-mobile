@@ -15,7 +15,9 @@ function Menubar() {
                 ()=>r.push("/")
             }><HiHome size="35px" color="white"/></p>
 
-            <p><HiCheckCircle size="35px" color="white"/></p>
+            <p onClick={
+                ()=>r.push("/verifier")
+            }><HiCheckCircle size="35px" color="white"/></p>
 
             <p onClick={
                 ()=>r.push("/shopping")

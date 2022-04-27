@@ -1,7 +1,7 @@
 import styled from 'styled-components'; //There's the option to style e.g. flower 1, 2, 3 & 4 (or 10+ things here) & add it as 1 component!
 
 const FlowerTopRight = styled.div`
-position:fixed;
+position:absolute;
 margin:0;
 padding: 0;
 
