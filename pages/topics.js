@@ -1,5 +1,3 @@
-//1- If u want u can import styled.components & do more styling here
-//2- Use router is to route the pages if u want
 
 import Menubar from "../comps/menubar";
 import HeaderImgs from "../comps/headerimage";
@@ -14,7 +12,7 @@ export default function Home(){
 
     return <div className={styles.main}>
         <div className="pagetitle">
-            <h1 className="header">Verifier</h1>
+            <h1 className="header">Topics</h1>
         </div>
         <br />
 
@@ -23,22 +21,22 @@ export default function Home(){
         }><HiArrowNarrowLeft size="45px" color="black" /></div>  
 
         <div onClick={
-            ()=>r.push("https://goodonyou.eco/")
-        }><GreenBar name="Good on You" /></div>
+            ()=>r.push("/about")
+        }><GreenBar name="Recent Events" /></div>
         <div onClick={
-            ()=>r.push("https://goodonyou.eco/")
-        }><GreenBar name="Ethicalconsumers.org" /></div>
+            ()=>r.push("/about")
+        }><GreenBar name="Wastes and Toxins" /></div>
                 <div onClick={
-            ()=>r.push("https://goodonyou.eco/")
-        }><GreenBar name="Eupedia" /></div>
+            ()=>r.push("/about")
+        }><GreenBar name="Unethical Labour" /></div>
                 <div onClick={
-            ()=>r.push("https://goodonyou.eco/")
-        }><GreenBar name="More" /></div>
+            ()=>r.push("/about")
+        }><GreenBar name="Enviormental Impacts" /></div>
                 <div onClick={
-            ()=>r.push("https://goodonyou.eco/")
-        }></div>
+            ()=>r.push("/about")
+        }><GreenBar name="Resources" /></div>
      
     <Menubar />
-    </div> 
+    </div>
 
 } 

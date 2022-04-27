@@ -1,3 +1,8 @@
+// Put all the images in one array AND all the text in one array 
+// Make the div clickable
+// Reference1: shopitems.js (make a data file)
+// They are two different arrays that you can call
+
 export const shopImgs = [
     "/shopdenimjacket.jpeg",
     "/shopshoes.jpeg",
@@ -7,7 +12,7 @@ export const shopImgs = [
     "/shoppinktop.jpeg"
 ];
 
-export const shopLabels = [
+export const shopLabels = [ 
     "$25 CAD",
     "$20 CAD",
     "$20 CAD",
