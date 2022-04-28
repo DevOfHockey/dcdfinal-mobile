@@ -13,9 +13,9 @@ export default function Splashpage() { //See     global.css  >  .pagetitle    h1
         <div class = "flower-div1">
             <img src="/flowerTL.svg" alt="Flower icon"/> 
         </div>
-        <div class = "flower-div2">
+        {/* <div class = "flower-div2">
             <img src="/flowerTR.svg" alt="Flower icon"/> 
-        </div>
+        </div> */}
         <div class = "flower-div3">
             <img src="/flowerBL.svg" alt="Flower icon"/> 
         </div>

@@ -14,7 +14,7 @@ export default function Home(){
 
     return <div className={styles.main}>
         <div className="pagetitle">
-            <h1 className="header">Verifier</h1>
+            <h1 className="header">Verify</h1>
         </div>
         <br />
 
