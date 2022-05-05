@@ -15,8 +15,8 @@ export default function Home(){
     return <div className={styles.main}>
         <div className="pagetitle">
             <h1 className="header">Verify</h1>
+            <p class="subheading">Verify brand sustainability / ethical practices </p>
         </div>
-        <br />
 
         <div className="arrow" onClick={ 
             ()=>r.push("/")
