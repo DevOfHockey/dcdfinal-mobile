@@ -13,7 +13,7 @@ export default function Shopping() {
      
     <div class="pagetitle">
         <h1 class="header">Shopping</h1>
-        <p class="subheading">Browse second-hand clothing from our Community</p>
+        <p class="subheading">Browse secondhand Community clothing</p>
     </div>
     <div class="shopImgs" onClick={
         ()=>r.replace({

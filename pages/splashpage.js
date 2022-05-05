@@ -1,9 +1,5 @@
-import Menubar from "../comps/menubar";
-import HeaderImgs from "../comps/headerimage";
-import GreenBar from "../comps/greenbar";
-import styles from "../styles/Home.module.css";
-import {headerImgs} from "../data/headimgs";
 import React from 'react';
+import styles from "../styles/Home.module.css"; //haven't used yet
 import {useRouter} from 'next/router';
 import BeginButton from '../comps/beginbutton'; //important! to import
 
@@ -17,9 +13,9 @@ export default function Splashpage() { //See     global.css  >  .pagetitle    h1
         <div class = "flower-div1">
             <img src="/flowerTL.svg" alt="Flower icon"/> 
         </div>
-        <div class = "flower-div2">
+        {/* <div class = "flower-div2">
             <img src="/flowerTR.svg" alt="Flower icon"/> 
-        </div>
+        </div> */}
         <div class = "flower-div3">
             <img src="/flowerBL.svg" alt="Flower icon"/> 
         </div>
@@ -39,7 +35,7 @@ export default function Splashpage() { //See     global.css  >  .pagetitle    h1
      </div>
 
      <div onClick={
-            ()=>r.push("/home")
+            ()=>r.push("/")
         }><BeginButton name="Let's begin!" /></div>
 
     </div> 

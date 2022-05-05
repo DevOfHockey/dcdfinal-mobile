@@ -6,6 +6,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 gap: 20px;
+margin-top: 20px;
 `;
 
 const ImgCont = styled.div`
