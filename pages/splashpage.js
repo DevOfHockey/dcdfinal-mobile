@@ -30,7 +30,7 @@ export default function Splashpage() { //See     global.css  >  .pagetitle    h1
                 <img src="/logo.svg" alt="Logo"/> 
             </div>
             <h1 class="header">Revived</h1> 
-            <p class="subheading">Welcome! Let’s start making <br/>a difference with efforts to <br/>reduce the footprint of our <br/>clothes on our planet!</p>
+            <p class="subheading">Welcome! Let's start making <br/>a difference with efforts to <br/>reduce the footprint of our <br/>clothes on our planet!</p>
         </div>
      </div>
 
@@ -40,4 +40,5 @@ export default function Splashpage() { //See     global.css  >  .pagetitle    h1
 
     </div> 
 }
+
 

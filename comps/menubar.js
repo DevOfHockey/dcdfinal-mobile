@@ -12,7 +12,7 @@ function Menubar() {
         <div className='menubar'>
         <div className='icons'>
             <p onClick={
-                ()=>r.push("/")
+                ()=>r.push("/home")
             }><HiHome size="35px" color="white"/></p>
 
             <p onClick={
