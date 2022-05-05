@@ -4,7 +4,6 @@ import GreenBar from "../comps/greenbar";
 import styles from "../styles/Home.module.css";
 import {headerImgs} from "../data/headimgs";
 import React from 'react';
-import styles from "../styles/Home.module.css"; //haven't used yet
 import {useRouter} from 'next/router';
 import BeginButton from '../comps/beginbutton'; //important! to import
 
