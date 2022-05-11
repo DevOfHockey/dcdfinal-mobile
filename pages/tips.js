@@ -6,26 +6,51 @@ import {useRouter} from 'next/router';
 
 export default function Tips() {
     const r = useRouter();
+    const {type} = r.query;
     return <div className={styles.main}>
      
     <div className="pagetitle">
         <h1 className="header">Clothing Tips</h1>
-        <p className="subheading">Help reduce waste and save your 
-        <br />clothing pieces through our tips.</p>
-        <div className="subhead">Select a Category</div>
+        <p className="subheading">Select a category to help reduce waste and
+        <br /> save your clothing pieces through our tips.</p>
+        <br />
+        <br />
+        <br />
     </div>
 
         <div onClick={
-            ()=>r.push("/tipsitems")
+            ()=>r.push({
+                pathname:"/tipsitems",
+                query:{
+                    type:"hacks"
+                }
+            })
         }><GreenBar name="Fashion Hacks" /></div>
+
         <div onClick={
-            ()=>r.push("/tipsitems")
+            ()=>r.push({
+                pathname:"/tipsitems",
+                query:{
+                    type:"mending"
+                }
+            })
         }><GreenBar name="Mending Clothing" /></div>
+
         <div onClick={
-            ()=>r.push("/tipsitems")
+            ()=>r.push({
+                pathname:"/tipsitems",
+                query:{
+                    type:"care"
+                }
+            })
         }><GreenBar name="Clothing Care" /></div>
         <div onClick={
-            ()=>r.push("/tipsitems")
+            ()=>r.push({
+                pathname:"/tipsitems",
+                query:{
+                    type:"before"
+                }
+            })
         }><GreenBar name="Before You Purchase..." /></div>
     
     <Menubar />

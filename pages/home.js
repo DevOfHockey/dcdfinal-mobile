@@ -22,7 +22,7 @@ export default function Home(){
             ()=>r.push("/about")
         }><GreenBar name="About Revived" /></div>
         <div onClick={
-            ()=>r.push("/about")
+            ()=>r.push("/topics")
         }><GreenBar name="Fast Fashion Topics" /></div>
      
     <Menubar />
