@@ -51,7 +51,7 @@ export default function Tips() {
                     type:"before"
                 }
             })
-        }><GreenBar name="Before You Purchase..." /></div>
+        }><GreenBar name="Before You Purchase" /></div>
     
     <Menubar />
     </div>

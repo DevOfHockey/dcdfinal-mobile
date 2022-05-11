@@ -3,7 +3,6 @@ import styles from "../styles/Home.module.css";
 import {hacksImgs, hacksLabels, mendingImgs, mendingLabels, careImgs, careLabels, beforeImgs, beforeLabels} from "../data/tipsitems";
 import ClothingImgs from "../comps/clothingimage";
 import ClothingTxt from "../comps/clothingtxt";
-import BeforeImgs from "../comps/beforetxt";
 import {HiArrowNarrowLeft} from 'react-icons/hi';
 import {useRouter} from 'next/router';
 import BeforeTxt from "../comps/beforetxt";
@@ -25,7 +24,12 @@ export default function TipsItems() {
     </div>
 
     <div onClick={
-            ()=>r.push("/tipsdescription")
+            ()=>r.push({
+                pathname:"/tipsdescription",
+                query:{
+                    type:"hacks"
+                }
+            })
         }><ClothingImgs arr={hacksImgs} /></div>
     
     <ClothingTxt arr={hacksLabels} />
@@ -47,7 +51,12 @@ if (type=== 'mending'){
     </div>
 
     <div onClick={
-            ()=>r.push("/tipsdescription")
+            ()=>r.push({
+                pathname:"/tipsdescription",
+                query:{
+                    type:"mending"
+                }
+            })
         }><ClothingImgs arr={mendingImgs} /></div>
     
     <ClothingTxt arr={mendingLabels} />
@@ -69,7 +78,12 @@ if (type=== 'care'){
     </div>
 
     <div onClick={
-            ()=>r.push("/tipsdescription")
+            ()=>r.push({
+                pathname:"/tipsdescription",
+                query:{
+                    type:"care"
+                }
+            })
         }><ClothingImgs arr={careImgs} /></div>
     
     <ClothingTxt arr={careLabels} />
@@ -91,7 +105,12 @@ if (type=== 'before'){
     </div>
 
     <div onClick={
-            ()=>r.push("/tipsdescription")
+            ()=>r.push({
+                pathname:"/tipsdescription",
+                query:{
+                    type:"before"
+                }
+            })
         }><ClothingImgs arr={beforeImgs} /></div>
     
     <BeforeTxt arr={beforeLabels} />

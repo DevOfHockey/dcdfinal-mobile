@@ -4,8 +4,21 @@ import DenimJacket from "../pages/denimjacket";
 export const headerImgs = [
     "/clothing.webp",
 ];
-export const headertipsImgs = [
+
+export const hacksImgs = [
     "/heels.jpg",
+];
+
+export const mendingImgs = [
+    "/holes.jpg",
+];
+
+export const careImgs = [
+    "/washing.jpg",
+];
+
+export const beforeImgs = [
+    "/one.jpg",
 ];
 
 export const aboutImgs = [
