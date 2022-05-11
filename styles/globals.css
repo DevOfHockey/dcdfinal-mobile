@@ -41,7 +41,8 @@ div.subhead {
   font-size: 24px;
   font-weight: 400;
   text-align: center;
-  margin: 15px;
+  margin-top: -5px;
+  margin-bottom: 18px;
 }
 
 p.pagedescription {
