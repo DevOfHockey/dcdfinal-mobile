@@ -11,7 +11,7 @@ function About() {
     return <div class="aboutpage">
 
         <div className="arrow" onClick={
-            ()=>r.push("/")
+            ()=>r.push("/home")
         }><HiArrowNarrowLeft size="45px" color="black" /></div>
 
         <h1 class="header">About Us</h1>
