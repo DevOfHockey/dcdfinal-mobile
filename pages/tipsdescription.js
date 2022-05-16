@@ -1,4 +1,3 @@
-import Menubar from "../comps/menubar";
 import styles from "../styles/Home.module.css";
 import {hacksImgs, mendingImgs, careImgs, beforeImgs} from "../data/headimgs";
 import HeaderImgs from '../comps/headerimage';
@@ -49,7 +48,6 @@ export default function Tipsdescription() {
     <BodyText name="2. Paint the nail polish on top of any scuff marks on the shoes" />
     <BodyText name="3. Let the shoes dry" />
     
-    <Menubar />
     </div>
     }
 
@@ -84,7 +82,6 @@ export default function Tipsdescription() {
     <BodyText name="3. Loop thread into start of path 3 times, sew along seam" />
     <BodyText name="4. Loop thread into end of path 3 times to secure the seam" />
     
-    <Menubar />
     </div>
     }
 
@@ -117,7 +114,6 @@ export default function Tipsdescription() {
     <BodyText name="1. Separate lights, darks and colours while washing to avoid colour staining your clothing" />
     <BodyText name="2. Set the washing machine to your designated mode to wash. For dark or bright colors that bleed or delicate fabrics, use cold water. For most other clothes, use warm water." />
     
-    <Menubar />
     </div>
     }
 
@@ -149,7 +145,6 @@ export default function Tipsdescription() {
     </div>
     <BodyText name="Before making a clothing purchase consider if it is something you will wear multiple times. It can be a waste of money and a clothing item to buy something you won’t get a lot of use of." />
     
-    <Menubar />
     </div>
     }
 

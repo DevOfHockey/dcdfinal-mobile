@@ -1,4 +1,3 @@
-import Menubar from "../comps/menubar";
 import React from 'react';
 import styles from "../styles/Home.module.css";
 import GreenBar from '../comps/greenbar';
@@ -28,7 +27,7 @@ export default function Tips() {
                 }
             })
         }><GreenBar name="Fashion Hacks" /></div>
-
+    
         <div onClick={
             ()=>r.push({
                 pathname:"/tipsitems",
@@ -57,7 +56,6 @@ export default function Tips() {
         </div>
         </Fade>
     
-    <Menubar />
     </div>
     
     

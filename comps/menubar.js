@@ -6,6 +6,11 @@ import {useRouter} from 'next/router';
 
 function Menubar() {
     const r = useRouter();
+    if (r.pathname=== '/'){
+        return <div className='menubarcont'>
+            </div>
+    }
+
 
 
     return <div className='menubarcont'>

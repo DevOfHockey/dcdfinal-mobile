@@ -1,4 +1,3 @@
-import Menubar from "../comps/menubar";
 import { savedImgs, savedTxt } from "../data/saveditems";
 import LinearImgs from "../comps/linearimgs";
 import SavedTxt from "../comps/savedtext";
@@ -16,6 +15,5 @@ export default function Saved() {
     </div>
     </Fade>
 
-    <Menubar />
     </div>
 }

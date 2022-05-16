@@ -1,4 +1,4 @@
-
+import Menubar from '../comps/menubar';
 import '../styles/globals.css'
 import '../styles/menubar.css'
 import styles from "../styles/Home.module.css"
@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps }) {
   <>
     <Component {...pageProps} />
     <FlowerTopRight/>
+    <Menubar />
   </>
   )
 }

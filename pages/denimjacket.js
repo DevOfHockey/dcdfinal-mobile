@@ -1,5 +1,4 @@
 import React from "react";
-import Menubar from "../comps/menubar";
 import HeaderImgs from '../comps/headerimage';
 import { DenimImg } from "../data/headimgs";
 import styles from "../styles/Home.module.css";
@@ -34,7 +33,6 @@ function DenimJacket() {
         </div>
         </Fade>
         
-        <Menubar />
     </div>
 
 }
