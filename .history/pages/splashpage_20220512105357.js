@@ -2,7 +2,6 @@ import React from 'react';
 import styles from "../styles/Home.module.css"; //haven't used yet
 import {useRouter} from 'next/router';
 import BeginButton from '../comps/beginbutton'; //important! to import
-import Fade from 'react-reveal/Fade';
 
 export default function Splashpage() { //See     global.css  >  .pagetitle    h1.header    p.subheading       to apply CSS here!
     const r = useRouter(); 
@@ -30,10 +29,8 @@ export default function Splashpage() { //See     global.css  >  .pagetitle    h1
             <div class = "revived-logo">
                 <img src="/logo.svg" alt="Logo"/> 
             </div>
-            <Fade bottom>
             <h1 class="header">Revived</h1> 
             <p class="subheading">Welcome! Let's start making <br/>a difference with efforts to <br/>reduce the footprint of our <br/>clothes on our planet!</p>
-            </Fade>
         </div>
      </div>
 

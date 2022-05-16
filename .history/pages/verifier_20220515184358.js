@@ -15,8 +15,10 @@ export default function Home(){
 
     return <div className={styles.main}>
         <div className="pagetitle">
+            <Fade bottom>
             <h1 className="header">Verify</h1>
             <p class="subheading">Verify brand sustainability / ethical practices </p>
+            </Fade>
         </div>
 
         <div>

@@ -15,18 +15,18 @@ export default function Home(){
 
     return <div className={styles.main}>
         <div className="pagetitle">
+            <Fade bottom>
             <h1 className="header">Verify</h1>
             <p class="subheading">Verify brand sustainability / ethical practices </p>
-        </div>
-
-        <div>
-        <div className="arrow" onClick={ 
-            ()=>r.push("/")
-        }><HiArrowNarrowLeft size="45px" color="black" /></div>  
+            </Fade>
         </div>
 
         <div>
         <Fade bottom>
+        <div className="arrow" onClick={ 
+            ()=>r.push("/")
+        }><HiArrowNarrowLeft size="45px" color="black" /></div>  
+
         <div onClick={
             ()=>r.push("https://goodonyou.eco/")
         }><GreenBar name="Good on You" /></div>

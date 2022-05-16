@@ -33,14 +33,14 @@ export default function Splashpage() { //See     global.css  >  .pagetitle    h1
             <Fade bottom>
             <h1 class="header">Revived</h1> 
             <p class="subheading">Welcome! Let's start making <br/>a difference with efforts to <br/>reduce the footprint of our <br/>clothes on our planet!</p>
-            </Fade>
+            
         </div>
      </div>
 
      <div onClick={
             ()=>r.push("/")
         }><BeginButton name="Let's begin!" /></div>
-
+    </Fade>
     </div> 
 }
 
