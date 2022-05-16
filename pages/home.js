@@ -1,4 +1,3 @@
-import Menubar from "../comps/menubar";
 import HeaderImgs from "../comps/headerimage";
 import GreenBar from "../comps/greenbar";
 import styles from "../styles/Home.module.css";
@@ -29,7 +28,6 @@ export default function Home(){
         </Fade>
         </div>
      
-    <Menubar />
     </div>
 
     

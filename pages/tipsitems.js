@@ -1,4 +1,3 @@
-import Menubar from "../comps/menubar";
 import styles from "../styles/Home.module.css";
 import {hacksImgs, hacksLabels, mendingImgs, mendingLabels, careImgs, careLabels, beforeImgs, beforeLabels} from "../data/tipsitems";
 import ClothingImgs from "../comps/clothingimage";
@@ -39,7 +38,6 @@ export default function TipsItems() {
     </div>
     </Fade>
 
-    <Menubar />
     </div>
 }
 
@@ -70,7 +68,6 @@ if (type=== 'mending'){
     </div>
     </Fade>
 
-    <Menubar />
     </div>
 }
 
@@ -101,7 +98,6 @@ if (type=== 'care'){
     </div>
     </Fade>
 
-    <Menubar />
     </div>
 }
 
@@ -132,7 +128,6 @@ if (type=== 'before'){
     </div>
     </Fade>
 
-    <Menubar />
     </div>
 }
 

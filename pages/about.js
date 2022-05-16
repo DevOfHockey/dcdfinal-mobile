@@ -1,5 +1,4 @@
 import React from "react";
-import Menubar from "../comps/menubar";
 import styles from "../styles/Home.module.css";
 import HeaderImgs from '../comps/headerimage';
 import {aboutImgs} from "../data/headimgs";
@@ -27,8 +26,7 @@ function About() {
         </p>
         </div>
         </Fade>
-
-        <Menubar />
+=
     </div>
     
 }

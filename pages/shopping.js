@@ -1,4 +1,3 @@
-import Menubar from "../comps/menubar";
 import styles from "../styles/Home.module.css";
 import { shopImgs, shopLabels } from "../data/shopitems";
 import GridImgs from "../comps/gridimgs";
@@ -34,6 +33,5 @@ export default function Shopping() {
     </div>
     </Fade>
     
-    <Menubar />
     </div>
 }
