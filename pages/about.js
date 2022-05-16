@@ -5,13 +5,13 @@ import HeaderImgs from '../comps/headerimage';
 import {aboutImgs} from "../data/headimgs";
 import {HiArrowNarrowLeft} from 'react-icons/hi';
 import {useRouter} from 'next/router';
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 
 function About() {
     const r = useRouter();
     return <div class="aboutpage">
 
-        <div className="arrow" onClick={
+<div className="arrow" onClick={
             ()=>r.push("/home")
         }><HiArrowNarrowLeft size="45px" color="black" /></div>
 
