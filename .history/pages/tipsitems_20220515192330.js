@@ -117,7 +117,7 @@ if (type=== 'before'){
         <div className="subhead">Before You Purchase</div>
     </div>
 
-    <Fade bottom>
+    <Fade bottom></Fade>
     <div>
     <div onClick={
             ()=>r.push({

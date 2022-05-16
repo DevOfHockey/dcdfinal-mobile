@@ -6,7 +6,6 @@ import ClothingTxt from "../comps/clothingtxt";
 import {HiArrowNarrowLeft} from 'react-icons/hi';
 import {useRouter} from 'next/router';
 import BeforeTxt from "../comps/beforetxt";
-import Fade from 'react-reveal/Fade';
 
 
 export default function TipsItems() {
@@ -24,8 +23,6 @@ export default function TipsItems() {
         <div className="subhead">Fashion Hacks</div>
     </div>
 
-    <Fade bottom>
-    <div>
     <div onClick={
             ()=>r.push({
                 pathname:"/tipsdescription",
@@ -36,8 +33,6 @@ export default function TipsItems() {
         }><ClothingImgs arr={hacksImgs} /></div>
     
     <ClothingTxt arr={hacksLabels} />
-    </div>
-    </Fade>
 
     <Menubar />
     </div>
@@ -55,8 +50,6 @@ if (type=== 'mending'){
         <div className="subhead">Mending Clothing</div>
     </div>
 
-    <Fade bottom>
-    <div>
     <div onClick={
             ()=>r.push({
                 pathname:"/tipsdescription",
@@ -67,8 +60,6 @@ if (type=== 'mending'){
         }><ClothingImgs arr={mendingImgs} /></div>
     
     <ClothingTxt arr={mendingLabels} />
-    </div>
-    </Fade>
 
     <Menubar />
     </div>
@@ -86,8 +77,6 @@ if (type=== 'care'){
         <div className="subhead">Clothing Care</div>
     </div>
 
-    <Fade bottom>
-    <div>
     <div onClick={
             ()=>r.push({
                 pathname:"/tipsdescription",
@@ -98,8 +87,6 @@ if (type=== 'care'){
         }><ClothingImgs arr={careImgs} /></div>
     
     <ClothingTxt arr={careLabels} />
-    </div>
-    </Fade>
 
     <Menubar />
     </div>
@@ -117,8 +104,6 @@ if (type=== 'before'){
         <div className="subhead">Before You Purchase</div>
     </div>
 
-    <Fade bottom>
-    <div>
     <div onClick={
             ()=>r.push({
                 pathname:"/tipsdescription",
@@ -129,8 +114,6 @@ if (type=== 'before'){
         }><ClothingImgs arr={beforeImgs} /></div>
     
     <BeforeTxt arr={beforeLabels} />
-    </div>
-    </Fade>
 
     <Menubar />
     </div>

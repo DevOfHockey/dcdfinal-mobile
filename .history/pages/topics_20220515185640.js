@@ -17,12 +17,12 @@ export default function Home(){
         </div>
         <br />
 
+        <Fade bottom>
+        <div>
         <div className="arrow" onClick={ 
             ()=>r.push("/")
         }><HiArrowNarrowLeft size="45px" color="black" /></div>  
 
-        <Fade bottom>
-        <div>
         <div onClick={
             ()=>r.push("/about")
         }><GreenBar name="Recent Events" /></div>

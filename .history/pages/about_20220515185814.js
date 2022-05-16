@@ -15,7 +15,7 @@ function About() {
             ()=>r.push("/home")
         }><HiArrowNarrowLeft size="45px" color="black" /></div>
 
-        <Fade bottom>
+        <Fade bottom></Fade>
         <div>
         <h1 class="header">About Us</h1>
         <HeaderImgs arr={aboutImgs} />

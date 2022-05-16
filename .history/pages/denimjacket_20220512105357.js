@@ -5,7 +5,6 @@ import { DenimImg } from "../data/headimgs";
 import styles from "../styles/Home.module.css";
 import {HiArrowNarrowLeft} from 'react-icons/hi';
 import {useRouter} from 'next/router';
-import Fade from 'react-reveal/Fade';
 
 function DenimJacket() {
     const r = useRouter();
@@ -18,8 +17,6 @@ function DenimJacket() {
 
         <HeaderImgs arr={DenimImg} />
         
-        <Fade bottom>
-        <div>
         <div className={styles.deniminfo}>
         <p className={styles.denimprice}>$25 CAD</p>
             <p className={styles.denimsize}>Size: M - L</p>
@@ -31,8 +28,6 @@ function DenimJacket() {
         <div className={styles.buttoncont}>
             <button className={styles.contactbutton}>Contact Seller</button>
         </div>
-        </div>
-        </Fade>
         
         <Menubar />
     </div>

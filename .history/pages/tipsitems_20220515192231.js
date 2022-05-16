@@ -117,8 +117,6 @@ if (type=== 'before'){
         <div className="subhead">Before You Purchase</div>
     </div>
 
-    <Fade bottom>
-    <div>
     <div onClick={
             ()=>r.push({
                 pathname:"/tipsdescription",
@@ -129,8 +127,6 @@ if (type=== 'before'){
         }><ClothingImgs arr={beforeImgs} /></div>
     
     <BeforeTxt arr={beforeLabels} />
-    </div>
-    </Fade>
 
     <Menubar />
     </div>

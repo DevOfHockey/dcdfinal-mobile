@@ -6,7 +6,6 @@ import styles from "../styles/Home.module.css";
 import {headerImgs} from "../data/headimgs";
 import {useRouter} from 'next/router';
 import {HiArrowNarrowLeft} from 'react-icons/hi';
-import Fade from 'react-reveal/Fade';
 
 export default function Home(){
     const r = useRouter();
@@ -21,8 +20,6 @@ export default function Home(){
             ()=>r.push("/")
         }><HiArrowNarrowLeft size="45px" color="black" /></div>  
 
-        <Fade bottom>
-        <div>
         <div onClick={
             ()=>r.push("/about")
         }><GreenBar name="Recent Events" /></div>
@@ -38,8 +35,6 @@ export default function Home(){
                 <div onClick={
             ()=>r.push("/about")
         }><GreenBar name="Resources" /></div>
-        </div>
-        </Fade>
      
     <Menubar />
     </div>

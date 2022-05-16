@@ -86,8 +86,6 @@ if (type=== 'care'){
         <div className="subhead">Clothing Care</div>
     </div>
 
-    <Fade bottom>
-    <div>
     <div onClick={
             ()=>r.push({
                 pathname:"/tipsdescription",
@@ -98,8 +96,6 @@ if (type=== 'care'){
         }><ClothingImgs arr={careImgs} /></div>
     
     <ClothingTxt arr={careLabels} />
-    </div>
-    </Fade>
 
     <Menubar />
     </div>
@@ -117,8 +113,6 @@ if (type=== 'before'){
         <div className="subhead">Before You Purchase</div>
     </div>
 
-    <Fade bottom>
-    <div>
     <div onClick={
             ()=>r.push({
                 pathname:"/tipsdescription",
@@ -129,8 +123,6 @@ if (type=== 'before'){
         }><ClothingImgs arr={beforeImgs} /></div>
     
     <BeforeTxt arr={beforeLabels} />
-    </div>
-    </Fade>
 
     <Menubar />
     </div>

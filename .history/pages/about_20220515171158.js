@@ -5,7 +5,6 @@ import HeaderImgs from '../comps/headerimage';
 import {aboutImgs} from "../data/headimgs";
 import {HiArrowNarrowLeft} from 'react-icons/hi';
 import {useRouter} from 'next/router';
-import Fade from 'react-reveal/Fade';
 
 function About() {
     const r = useRouter();
@@ -15,8 +14,6 @@ function About() {
             ()=>r.push("/home")
         }><HiArrowNarrowLeft size="45px" color="black" /></div>
 
-        <Fade bottom>
-        <div>
         <h1 class="header">About Us</h1>
         <HeaderImgs arr={aboutImgs} />
         <p class ="pagedescription">Revived is a fashion conscious app developed by our team with a 
@@ -25,8 +22,6 @@ function About() {
             fashion. This app also provides resources on how people can reuse their 
             clothing or re-sell their clothing in the community page. 
         </p>
-        </div>
-        </Fade>
 
         <Menubar />
     </div>
