@@ -12,12 +12,11 @@ export default function Shopping() {
 
     return <div className={styles.main}>
     
+    <Fade bottom>
     <div class="pagetitle">
         <h1 class="header">Shopping</h1>
         <p class="subheading">Browse secondhand Community clothing</p>
     </div>
-
-    <Fade bottom>
     <div class="shopImgs" onClick={
         ()=>r.replace({
             pathname:"/denimjacket",
