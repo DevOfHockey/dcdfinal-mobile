@@ -13,27 +13,27 @@ export default function Splashpage() { //See     global.css  >  .pagetitle    h1
     
      <div className="flowercorners">   
         <div className= "flower-div1">
-            <Image src="/flowerTL.svg" alt="Flower icon" width={160} height={160}/> 
+            <Image src="/flowerTL.svg" alt="Flower icon"/> 
         </div>
         {/* <div class = "flower-div2">
             <img src="/flowerTR.svg" alt="Flower icon"/> 
         </div> */}
         <div className = "flower-div3">
-            <Image src="/flowerBL.svg" alt="Flower icon" width={160} height={160}/> 
+            <Image src="/flowerBL.svg" alt="Flower icon"/> 
         </div>
         <div className = "flower-div4">
-            <Image src="/flowerBR.svg" alt="Flower icon" width={160} height={160}/> 
+            <Image src="/flowerBR.svg" alt="Flower icon"/> 
         </div>
      </div>
 
      <div className={styles.main}>
-        <div className="pagetitle">
-            <div className ="revived-logo">
-            <Image src="/logo.svg" alt="Logo" width={160} height={160}/> 
+        <div class="pagetitle">
+            <div class = "revived-logo">
+                <img src="/logo.svg" alt="Logo"/> 
             </div>
             <Fade bottom>
-            <h1 className="header">Revived</h1> 
-            <p className="subheading">Welcome! Let's start making <br/>a difference with efforts to <br/>reduce the footprint of our <br/>clothes on our planet!</p>
+            <h1 class="header">Revived</h1> 
+            <p class="subheading">Welcome! Let's start making <br/>a difference with efforts to <br/>reduce the footprint of our <br/>clothes on our planet!</p>
             </Fade>
         </div>
      </div>

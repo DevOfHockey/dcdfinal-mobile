@@ -15,16 +15,16 @@ export default function Splashpage() { //See     global.css  >  .pagetitle    h1
     
      <div className="flowercorners">   
         <div className="flower-div1">
-            <Image src="/flowerTL.svg" alt="Flower icon" width={160} height={160}/> 
+            <Image src="/flowerTL.svg" alt="Flower icon" width={100} height={100}/> 
         </div>
         {/* <div class = "flower-div2">
             <img src="/flowerTR.svg" alt="Flower icon"/> 
         </div> */}
         <div className="flower-div3">
-            <Image src="/flowerBL.svg" alt="Flower icon" width={160} height={160}/> 
+            <Image src="/flowerBL.svg" alt="Flower icon" width={100} height={100}/> 
         </div>
         <div className ="flower-div4">
-            <Image src="/flowerBR.svg" alt="Flower icon" width={160} height={160}/> 
+            <Image src="/flowerBR.svg" alt="Flower icon" width={100} height={100}/> 
         </div>
      </div>
 
