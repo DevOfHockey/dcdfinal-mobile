@@ -4,7 +4,7 @@
     height: 90px;
     background: #45602B;
     border-radius: 50px;
-    /* position: absolute; - commented this out so that it will be centered and responsive (Marian) */
+    /* position: absolute; */
     bottom: 5%;
     left: 5%;
 }
